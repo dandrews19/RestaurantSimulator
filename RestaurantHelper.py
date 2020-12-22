@@ -23,15 +23,7 @@ class RestaurantHelper(object):
         else:
             return None
 
-    # UNCOMMENT THIS IF DOING EC OPTION 1
-    # also comment out the above definition of the method
-    # @staticmethod
-    # def randomDinerGenerator():
-    #     if random.randint(1, 10) % 3 == 0:
-    #         return Diner(RestaurantHelper.generateRandName(), random.randrange(3))
-    #     else:
-    #         return None
-
+   
     # Input: -
     # Return: random name
     # DO NOT make any method calls to generateRandName
